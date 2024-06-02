@@ -4,6 +4,25 @@
     <title>Event Registration Portal</title>
 </head>
 <body>
-    
+    <h3>Please complete the following registration form:</h3>
+    <form id="registrationForm">
+        <label for="firstName">First Name:</label>
+        <input type="text" name="firstName" id="firstName" required>
+        <label for="lastName">Last Name:</label>
+        <input type="text" name="lastName" id="lastName" required><br><br>
+        <label for="emailAddress">Email Address:</label>
+        <input type="email" name="emailAddress" id="emailAddress"><br><br>
+        <label for="date">Date:</label>
+        <input type="date" name="date" id="date"><br><br>
+        <label for="mealPreference">Meal Preference:</label>
+        <input type="checkbox" name="vegetarian" id="vegetarian" value="vegetarian">
+        <label for="vegetarian">Vegetarian</label>
+        <input type="checkbox" name="nonVegetarian" id="nonVegetarian" value="nonVegetarian">
+        <label for="vegetarian">Non-Vegetarian</label>
+        <input type="checkbox" name="vegan" id="vegan" value="vegan">
+        <label for="vegan">Vegan</label><br><br>
+        <input type="submit" value="Submit">
+    </form><br><br>
+    <div id="feedbackSubmission"></div>
 </body>
 </html>

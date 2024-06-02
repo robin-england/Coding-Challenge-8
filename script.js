@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", (event) => {  // This prevents the
             Vegetarian: ${vegetarian} <br>
             Non-Vegetarian: ${nonVegetarian} <br>
             Vegan: ${vegan} <br>
-            `                       // Displays inputs in HTML 
+            `                                                       // Displays inputs in HTML 
         document.getElementById("registrationForm").reset()         // Clears values in the form
     }) 
 })
